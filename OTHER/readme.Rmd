@@ -1,0 +1,46 @@
+---
+title: "Text Classification"
+author: "AdrienSIEG"
+date: "17/04/2019"
+output:
+  md_document:
+    variant: markdown_github
+---
+
+# Automatic Extraction of Causal-Consequences Relations
+
+Identification of causality is not a trivial problem. Causation can occur in various forms. Two common differentiations are made on: 
+
+- **Marked and Unmarked causality** (a)
+- **Implicit and Explicit causality** (b)
+
+Marked Causality is where there is a linguistic signal of causation present. 
+
+For example, **“I attended the event because I was invited”**. Here, causality is marked by **because**. On the other hand in **“Drive slowly. There are potholes”**, causality is unmarked.
+
+Explicit Causality is where both cause and effect are stated. For example, **“The burst has been caused by water hammer pressure”** has both cause and effect stated explicitly. 
+
+However, “The car ran over his leg” does not have the effect of the accident explicitly stated.
+
+Automatic extraction of cause-effect relations are primarily based on three different approaches namely, **Linguistic rule based**, **supervised** and **unsupervised** machine learning approaches. 
+
+The architecture uses word level embeddings and other linguistic features to detect causal events and their effects mentioned within a sentence. The extracted events and their relations are used to build a causal-graph after clustering and appropriate generalization, which is then used for predictive purposes.
+
+# Check the APP -> 
+
+https://adsieg.shinyapps.io/causal_relations/
+
+# References
+https://github.com/teffland/Relation-Extraction/tree/master/SemEval2010_task8_all_data/SemEval2010_task8_training
+
+https://www.depends-on-the-definition.com/attention-lstm-relation-classification/
+
+https://github.com/tsterbak/keras_attention
+
+https://github.com/davidsbatista/Annotated-Semantic-Relationships-Datasets
+
+https://github.com/teffland/Relation-Extraction/tree/master/SemEval2010_task8_all_data/SemEval2010_task8_training
+
+https://www.aclweb.org/anthology/W18-5035
+
+https://medium.freecodecamp.org/a-deep-dive-into-part-of-speech-tagging-using-viterbi-algorithm-17c8de32e8bc

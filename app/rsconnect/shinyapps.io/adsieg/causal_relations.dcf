@@ -1,0 +1,13 @@
+name: causal_relations
+title: causal_relations
+username:
+account: adsieg
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 895991
+bundleId: 2046592
+url: https://adsieg.shinyapps.io/causal_relations/
+when: 1556543346.98329
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: dataset/nature.xlsx|dataset/word.xlsx
